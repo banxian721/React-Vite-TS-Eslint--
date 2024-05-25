@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+该项目是 React 初始化项目
+pnpm install
+pnpm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+已经配置了路径别名，eg: "@/xxx"
 
-Currently, two official plugins are available:
+项目中 ESlint 用的 vite-plugin-eslint，这个包用于在 Vite 项目中集成 ESLint 的插件，专注于在 Vite 项目的构建过程中进行代码检查和格式化。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+在 Vscode 里下载了 ESlint 和 Prettier 插件
+ESlint 插件：ESLint 插件主要用于在编辑器中提供实时的代码检查和提示
+Prettier - Code formatter 插件：主要用于格式化代码的外观，包括缩进、空格、换行等。它可以将代码自动排版，使其更加美观易读。
