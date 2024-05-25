@@ -1,5 +1,5 @@
-import { AESName } from "@/utils/AES";
+import { AESName } from '@/utils/AES';
 
 export default function Login() {
-    return <div>login{AESName}</div>;
+  return <div>login{AESName}</div>;
 }
